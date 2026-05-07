@@ -1,0 +1,2200 @@
+ Volume in drive C has no label.
+ Volume Serial Number is B086-9A55
+
+ Directory of C:\xampp\htdocs\roster_python
+
+2026-05-02  05:41 AM             3,849 analyse.py
+2026-05-02  05:45 AM               930 analyze.py
+2026-05-02  06:12 AM             4,564 analyze_scope.py
+2026-05-01  08:27 PM             9,435 app.py
+2026-04-30  04:40 PM             7,279 auth_check.py
+2026-04-30  08:11 PM             1,280 auth_login.py
+2026-04-30  08:11 PM             1,448 brute_force_protection.py
+2026-04-30  08:11 PM             1,392 check_blind_status.py
+2026-04-30  08:11 PM             1,280 check_user.py
+2026-04-30  04:43 PM             9,313 config.py
+2026-04-30  08:10 PM             6,947 convert_php_to_python.py
+2026-04-30  04:46 PM             8,040 db_config.py
+2026-04-30  04:48 PM            10,003 db_conn.py
+2026-04-30  02:23 PM             6,187 fix_database.py
+2026-04-30  04:50 PM            13,474 functions.py
+2026-04-30  08:11 PM             1,434 get_reference_options.py
+2026-04-30  08:11 PM             1,306 header.py
+2026-05-01  06:27 PM            15,206 index.py
+2026-05-01  08:42 PM            18,204 login.py
+2026-05-02  05:50 AM            13,078 login_complete.py
+2026-04-30  08:11 PM             1,224 logout.py
+2026-05-01  07:21 PM             1,311 register_blueprints.py
+2026-04-30  02:56 PM            17,781 roster_app.py
+2026-04-29  04:57 PM               658 run.py
+2026-04-29  02:56 PM               950 run_debug.py
+2026-04-29  05:03 PM               273 run_flask.py
+2026-04-29  05:05 PM               219 run_port3000.py
+2026-04-29  02:57 PM               437 run_port5001.py
+2026-04-30  08:11 PM             1,210 setup.py
+2026-04-30  02:42 PM             2,780 simple_login.py
+2026-04-30  11:57 AM               596 simple_server.py
+2026-04-29  03:01 PM               752 start.py
+2026-05-01  08:01 PM             3,448 test_app.py
+2026-04-30  11:23 AM               419 test_user.py
+2026-04-30  08:11 PM             1,322 unauthorized.py
+2026-04-30  11:59 AM             3,003 working_api.py
+2026-05-02  06:05 AM             5,335 working_login.py
+              37 File(s)        176,367 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\api
+
+2026-04-29  03:53 PM             6,254 admin.py
+2026-04-29  02:30 PM             2,515 auth.py
+2026-04-29  03:54 PM             8,247 dashboard.py
+2026-04-29  03:52 PM             4,110 grades.py
+2026-04-29  02:32 PM             5,999 roster.py
+2026-04-29  03:53 PM             9,215 scores.py
+2026-04-29  03:51 PM             6,933 teacher.py
+2026-04-29  02:30 PM                 0 __init__.py
+               8 File(s)         43,273 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\config
+
+2026-04-30  08:11 PM             1,307 database.py
+2026-04-30  08:11 PM             1,307 subjects.py
+               2 File(s)          2,614 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\director
+
+2026-04-30  08:11 PM             1,533 academic_year_converter.py
+2026-04-30  08:11 PM             1,439 academic_yerars.py
+2026-04-30  08:11 PM             1,449 active_sections.py
+2026-04-30  08:11 PM             1,421 activity_logger.py
+2026-04-30  08:11 PM             1,393 admin_session.py
+2026-04-30  08:11 PM             1,451 alphabetical_order.py
+2026-04-30  08:11 PM             1,549 annual_average_analysis.py
+2026-04-30  08:11 PM             1,407 auth_functions.py
+2026-04-30  08:11 PM             1,423 average_scores.py
+2026-04-30  08:11 PM             1,533 check_enrollment_status.py
+2026-04-30  08:11 PM             1,547 correct_enrollment_query.py
+2026-04-30  08:11 PM             1,379 debug_scores.py
+2026-04-30  08:11 PM             1,463 delete_admin_staff.py
+2026-04-30  08:11 PM             1,603 delete_record_student_parent.py
+2026-05-01  11:47 AM            31,792 director_dashboard.py
+2026-04-30  08:11 PM             1,489 director_dashboard2.py
+2026-04-30  08:11 PM             1,435 director_session.py
+2026-04-30  08:11 PM             1,407 display_roster.py
+2026-04-30  08:11 PM             1,463 edit_academic_year.py
+2026-04-30  08:11 PM             1,481 edit_admin_staff.py
+2026-04-30  08:11 PM             1,421 edit_assessment.py
+2026-04-30  08:11 PM             1,351 edit_class.py
+2026-04-30  08:11 PM             1,433 edit_enrollment.py
+2026-04-30  08:11 PM             1,561 edit_enrollment2.py
+2026-04-30  08:11 PM             1,351 edit_grade.py
+2026-04-30  08:11 PM             1,365 edit_parent.py
+2026-04-30  08:11 PM             1,535 edit_room_teacher.py
+2026-04-30  08:11 PM             1,379 edit_section.py
+2026-04-30  08:11 PM             1,379 edit_student.py
+2026-04-30  08:11 PM             1,481 edit_student_parent.py
+2026-04-30  08:11 PM             1,477 edit_student_scores.py
+2026-04-30  08:11 PM             1,379 edit_subject.py
+2026-04-30  08:11 PM             1,577 edit_subject_teacher.py
+2026-04-30  08:11 PM             1,425 edit_teacher.py
+2026-04-30  08:11 PM             1,533 edit_teacher_assignment.py
+2026-04-30  08:11 PM             1,337 edit_user.py
+2026-04-30  08:11 PM             1,381 enrollment.py
+2026-04-30  08:11 PM             1,507 enrollment22.py
+2026-04-30  08:11 PM             1,421 excel_import.py
+2026-04-30  08:11 PM             1,511 excel_import_to_mysql.py
+2026-04-30  08:11 PM             1,421 execute_queries.py
+2026-04-30  08:11 PM             1,491 generate_report_card.py
+2026-04-30  08:11 PM             1,463 get_academic_years.py
+2026-04-30  08:11 PM             1,449 get_activity_logs.py
+2026-04-30  08:11 PM             1,407 get_all_scores.py
+2026-04-30  08:11 PM             1,435 get_all_students.py
+2026-04-30  08:11 PM             1,505 get_reference_options.py
+2026-04-30  08:11 PM             1,379 get_sections.py
+2026-04-30  08:11 PM             1,379 get_subjects.py
+2026-04-30  08:11 PM             1,379 get_teachers.py
+2026-04-30  08:11 PM             1,337 ge_scores.py
+2026-04-30  08:11 PM             1,591 grade_6_ministry_analysis.py
+2026-04-30  08:11 PM             1,619 grade_6_ministry_analysis2.py
+2026-04-30  08:11 PM             1,593 grade_6_ministry_analysis3.py
+2026-04-30  08:11 PM             1,451 grade_8A_students.py
+2026-04-30  08:11 PM             1,591 grade_8_ministry_analysis.py
+2026-04-30  08:11 PM             1,589 grade_8_ministry_analysis2.py
+2026-04-30  08:11 PM             1,607 grade_based_enrollment_update.py
+2026-04-30  08:11 PM             1,519 grade_level_analysis.py
+2026-04-30  08:11 PM             1,567 grade_level_analysis_all.py
+2026-04-30  08:11 PM             1,579 grade_level_analysis_all2.py
+2026-04-30  08:11 PM             1,623 grade_level_analysis_average.py
+2026-04-30  08:11 PM             1,611 grade_level_analysis_average_2.py
+2026-04-30  08:11 PM             1,617 grade_level_analysis_semester.py
+2026-04-30  08:11 PM             1,603 grade_level_summary_analysis.py
+2026-04-30  08:11 PM             1,427 grade_sections.py
+2026-04-30  08:11 PM             1,433 grade_sections2.py
+2026-04-30  08:11 PM             1,433 grade_sections3.py
+2026-04-30  08:11 PM             1,509 grade_troubleshooter.py
+2026-04-30  08:11 PM             1,493 insert_academic_year.py
+2026-04-30  08:11 PM             1,457 insert_admin_staff.py
+2026-04-30  08:11 PM             1,477 insert_admin_staff2.py
+2026-04-30  08:11 PM             1,465 insert_assessment.py
+2026-04-30  08:11 PM             1,379 insert_class.py
+2026-04-30  08:11 PM             1,379 insert_grade.py
+2026-04-30  08:11 PM             1,523 insert_ministry_scores.py
+2026-04-30  08:11 PM             1,365 insert_room.py
+2026-04-30  08:11 PM             1,407 insert_section.py
+2026-04-30  08:11 PM             1,411 insert_student.py
+2026-04-30  08:11 PM             1,513 insert_student_parent.py
+2026-04-30  08:11 PM             1,499 insert_student_scores.py
+2026-04-30  08:11 PM             1,409 insert_subject.py
+2026-04-30  08:11 PM             1,401 insert_teacher.py
+2026-04-30  08:11 PM             1,547 insert_teacher_assignment.py
+2026-04-30  08:11 PM             1,559 insert_teacher_assignment2.py
+2026-04-30  08:11 PM             1,379 insert_users.py
+2026-04-30  08:11 PM             1,463 manage_admin_staff.py
+2026-04-30  08:11 PM             1,379 manage_users.py
+2026-04-30  08:11 PM             1,337 materials.py
+2026-04-30  08:11 PM             1,391 new_students.py
+2026-04-30  08:11 PM             1,435 promote_students.py
+2026-04-30  08:11 PM             1,407 record_activty.py
+2026-04-30  08:11 PM             1,423 report_card.py
+2026-04-30  08:11 PM             1,407 reset_password.py
+2026-04-30  08:11 PM             1,529 search_student_parent.py
+2026-04-30  08:11 PM             1,505 search_student_score.py
+2026-04-30  08:11 PM             1,473 semester_analysis.py
+2026-04-30  08:11 PM             1,485 semester_analysis2.py
+2026-04-30  08:11 PM             1,629 semester_and_average_analysis.py
+2026-04-30  08:11 PM             1,491 student_promotion.py
+2026-04-30  08:11 PM             1,639 student_promotion_grade_6-8.py
+2026-04-30  08:11 PM             1,567 student_promotion_status.py
+2026-05-01  11:54 AM            14,600 student_statistics.py
+2026-04-30  08:11 PM             1,489 student_statstics2.py
+2026-04-30  08:11 PM             1,627 subject_based_summary_analysis.py
+2026-04-30  08:11 PM             1,393 teachers_list.py
+2026-04-30  08:11 PM             1,463 teacher_category.py
+2026-04-30  08:11 PM             1,509 teacher_details.py
+2026-04-30  08:11 PM             1,519 test_activity_function.py
+2026-04-30  08:11 PM             1,519 test_login_integration.py
+2026-04-30  08:11 PM             1,365 test_logout.py
+2026-04-30  08:11 PM             1,365 test_record.py
+2026-04-30  08:11 PM             1,337 translate.py
+2026-04-30  08:11 PM             1,295 upload.py
+2026-04-30  08:11 PM             1,465 view_academic_year.py
+2026-04-30  08:11 PM             1,453 view_activity_log.py
+2026-04-30  08:11 PM             1,481 view_admin_staff.py
+2026-04-30  08:11 PM             1,467 view_all_students.py
+2026-04-30  08:11 PM             1,453 view_assessment.py
+2026-04-30  08:11 PM             1,355 view_class.py
+2026-04-30  08:11 PM             1,453 view_class_details.py
+2026-04-30  08:11 PM             1,353 view_grade.py
+2026-04-30  08:11 PM             1,541 view_graduated_students.py
+2026-04-30  08:11 PM             1,477 view_login_attempts.py
+2026-04-30  08:11 PM             1,443 view_ministry.py
+2026-04-30  08:11 PM             1,495 view_ministry_scores.py
+2026-04-30  08:11 PM             1,339 view_room.py
+2026-04-30  08:11 PM             1,467 view_room_teachers.py
+2026-04-30  08:11 PM             1,485 view_room_teachers2.py
+2026-04-30  08:11 PM             1,381 view_section.py
+2026-04-30  08:11 PM             1,529 view_students_detail.py
+2026-04-30  08:11 PM             1,579 view_student_average_scores.py
+2026-04-30  08:11 PM             1,645 view_student_enrollment.py
+2026-04-30  08:11 PM             1,537 view_student_enrollment2.py
+2026-04-30  08:11 PM             1,657 view_student_enrollment3.py
+2026-04-30  08:11 PM             1,657 view_student_enrollment4.py
+2026-04-30  08:11 PM             1,545 view_student_enrollment_1.py
+2026-04-30  08:11 PM             1,669 view_student_enrollment_2.py
+2026-04-30  08:11 PM             1,765 view_student_enrollment_alphabetical_order.py
+2026-04-30  08:11 PM             1,693 view_student_enrollment_yeraly_order.py
+2026-04-30  08:11 PM             1,505 view_student_parent.py
+2026-04-30  08:11 PM             1,595 view_student_parent_1.py
+2026-04-30  08:11 PM             1,701 view_student_parent_paginated.py
+2026-04-30  08:11 PM             1,489 view_student_roster.py
+2026-04-30  08:11 PM             1,489 view_student_scores.py
+2026-04-30  08:11 PM             1,381 view_subject.py
+2026-04-30  08:11 PM             1,509 view_subject_teachers.py
+2026-04-30  08:11 PM             1,385 view_teacher.py
+2026-04-30  08:11 PM             1,535 view_teacher_assignment.py
+2026-04-30  08:11 PM             1,547 view_teacher_assignment3.py
+2026-04-30  08:11 PM             1,477 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,379 view_users.py
+             152 File(s)        268,148 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\frontend\node_modules\flatted\python
+
+2026-04-29  04:32 PM             3,773 flatted.py
+               1 File(s)          3,773 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\helpers
+
+2026-04-30  08:11 PM             1,399 subject_helper.py
+               1 File(s)          1,399 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\includes
+
+2026-04-30  08:11 PM             1,267 auth.py
+2026-04-30  08:11 PM             1,323 autoload.py
+2026-04-30  08:11 PM             1,353 view.py
+               3 File(s)          3,943 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\includes\components
+
+2026-04-30  08:11 PM             1,551 DashboardComponent.py
+               1 File(s)          1,551 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\includes\services
+
+2026-04-30  08:11 PM             1,507 DashboardService.py
+               1 File(s)          1,507 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\js\localhost _ 127.0.0.1 _ test _ enrollment _ phpMyAdmin 5.2.1_files
+
+2026-04-30  08:11 PM             1,811 messages.py
+               1 File(s)          1,811 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\kg_director
+
+2026-04-30  08:11 PM             1,531 kg_director_dashboard.py
+2026-04-30  08:11 PM             1,541 kg_director_dashboard2.py
+2026-04-30  08:11 PM             1,543 kg_director_dashboard3.py
+               3 File(s)          4,615 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\next_academic_year
+
+2026-04-30  08:11 PM             1,519 academic_yerars.py
+2026-04-30  08:11 PM             1,423 students.py
+               2 File(s)          2,942 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\parent
+
+2026-04-30  08:11 PM             1,419 parent_dashboard.py
+               1 File(s)          1,419 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher
+
+2026-04-30  08:11 PM             1,523 room_teacher_session.py
+               1 File(s)          1,523 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_1A
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_1A.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_1A.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_1A.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,629 grade_1A_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_1A.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_1A.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_1A.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_1A.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_1A.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_1A.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,147 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_1B
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_1B.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_1B.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_1B.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,629 grade_1B_rt_dashboard.py
+2026-04-30  08:11 PM             1,629 grade_2A_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_1B.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_1B.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_1B.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_1B.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_1B.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_1B.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              30 File(s)         48,776 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_1C
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_1C.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_1C.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_1C.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,629 grade_1C_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_1C.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_1C.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_1C.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_1C.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_1C.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_1C.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,147 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_1D
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_1D.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_1D.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_1D.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,629 grade_1D_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_1D.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_1D.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_1D.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_1D.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_1D.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_1D.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,147 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_1E
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_1E.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_1E.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_1E.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,629 grade_1E_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_1E.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_1E.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_1E.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_1E.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_1E.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_1E.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,147 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_2A
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_2A.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_2A.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_2A.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,629 grade_2A_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_2A.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_2A.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_2A.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_2A.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_2A.py
+2026-04-30  08:11 PM             1,717 view_student_scores_grade_2A.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,143 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_2B
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_2B.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_2B.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_2B.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,635 grade_2B_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_2B.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_2B.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_2B.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_2B.py
+2026-04-30  08:11 PM             1,717 view_student_scores_grade_2B.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              28 File(s)         45,432 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_2C
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_2C.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_2C.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_2C.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,629 grade_2C_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_2C.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_2C.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_2C.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_2C.py
+2026-04-30  08:11 PM             1,715 view_student_scores_grade_2C.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              28 File(s)         45,424 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_2D
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_2D.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_2D.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_2D.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,629 grade_2D_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_2D.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,489 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_2C.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_2D.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_2D.py
+2026-04-30  08:11 PM             1,715 view_student_scores_grade_2D.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              28 File(s)         45,426 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_3A
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_3A.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_3A.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_3A.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,631 grade_3A_rt_dashboard.py
+2026-04-30  08:11 PM             1,631 grade_3B_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_3A.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_3A.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_3A.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_3A.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_3A.py
+2026-04-30  08:11 PM             1,715 view_student_scores_grade_3A.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              30 File(s)         48,774 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_3B
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_3B.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_3B.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_3B.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,631 grade_3B_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_3B.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_3B.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_3B.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_3B.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_3B.py
+2026-04-30  08:11 PM             1,715 view_student_scores_grade_3B.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,143 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_3C
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_3C.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_3C.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_3C.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,631 grade_3C_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_3C.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,489 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_3C.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_3C.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_3C.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_3C.py
+2026-04-30  08:11 PM             1,715 view_student_scores_grade_3C.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,145 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_3D
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_3D.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_3D.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_3D.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,631 grade_3D_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,735 insert_student_scores_grade_3D.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_3D.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_3D.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_3D.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_3D.py
+2026-04-30  08:11 PM             1,715 view_student_scores_grade_3D.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,143 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_4A
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_4A.py
+2026-04-30  08:11 PM             1,567 check_grade4A_data.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_4A.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_4A.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,629 grade_4A_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_4A.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_6A.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_4A.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_4A.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_4A.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_4A.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              30 File(s)         48,718 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_4B
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_4B.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_4B.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_4B.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,635 grade_4B_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_4B.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_4B.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_4B.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_4B.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_4B.py
+2026-04-30  08:11 PM             1,715 view_student_scores_grade_4B.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,151 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_4C
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_4C.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_4C.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_4C.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,635 grade_4C_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_4C.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_4C.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_4C.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_4C.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_4C.py
+2026-04-30  08:11 PM             1,715 view_student_scores_grade_4C.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,151 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_4D
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_4D.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_4D.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_4D.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,635 grade_4D_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_4D.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_4D.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_4D.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_4D.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_4D.py
+2026-04-30  08:11 PM             1,715 view_student_scores_grade_4D.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,151 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_5A
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_5A.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_5A.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,695 edit_student_scores_grade_5A.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,635 grade_5A_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_5A.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_5A.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_5A.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_5A.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_5A.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_5A.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              28 File(s)         45,680 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_5B
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_5B.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_5B.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_5B.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,635 grade_5B_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_5B.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_5B.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_5B.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_5B.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_5B.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_5B.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,157 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_5C
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_5C.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_5C.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_5C.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,635 grade_5C_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_5C.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_5C.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_5C.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_5C.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_5C.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_5C.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              29 File(s)         47,157 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_5D
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_5D.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_5D.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_5D.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,629 grade_4D_rt_dashboard.py
+2026-04-30  08:11 PM             1,629 grade_5D_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_5D.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_5D.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_5D.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_5D.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_5D.py
+2026-04-30  08:11 PM             1,715 view_student_scores_grade_5D.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              30 File(s)         48,774 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_6A
+
+2026-04-30  08:11 PM             1,581 academic_year_check.py
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_6A.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_6A.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,695 edit_student_scores_grade_6A.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-05-01  08:27 PM            20,998 grade_6A_rt_dashboard.py
+2026-04-30  08:11 PM             1,561 grade_6_Amharic.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_6A.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_6A.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_6A.py
+2026-04-30  08:11 PM             1,741 student_statistics_grade_6A_2.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_6A.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_6A.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_6A.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              31 File(s)         69,926 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_6B
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_6B.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_6B.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,695 edit_student_scores_grade_6B.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,635 grade_6A_rt_dashboard.py
+2026-04-30  08:11 PM             1,635 grade_6B_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,603 insert_student_scores.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_6B.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,753 student_statistics_grade_6B.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_6B.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_6B.py
+2026-04-30  08:11 PM             1,593 view_student_scores.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_6B.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              24 File(s)         38,952 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_6C
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_6C.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_6C.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,695 edit_student_scores_grade_6C.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,635 grade_6C_rt_dashboard.py
+2026-04-30  08:11 PM             1,561 grade_6_Amharic.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_6C.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_6C.py
+2026-04-30  08:11 PM             1,753 student_statistics_grade_6C.py
+2026-04-30  08:11 PM             1,741 student_statistics_grade_6C_2.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_6C.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_6C.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_6C.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              30 File(s)         49,018 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_6D
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_6D.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_6D.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,581 edit_student_scores.py
+2026-04-30  08:11 PM             1,695 edit_student_scores_grade_6D.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,635 grade_6D_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_6D.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_6D.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_6D.py
+2026-04-30  08:11 PM             1,741 view_student_roster_grade_6D.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_6D.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              27 File(s)         43,963 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_7A
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_7A.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_7A.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_7A.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,483 get_subjects.py
+2026-04-30  08:11 PM             1,483 get_teachers.py
+2026-04-30  08:11 PM             1,635 grade_7A_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,581 insert_assessment3.py
+2026-04-30  08:11 PM             1,567 insert_assessment4.py
+2026-04-30  08:11 PM             1,603 insert_student_scores.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_7A.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,489 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_7A.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_7A.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_7A.py
+2026-04-30  08:11 PM             1,703 view_student_roster_grade_7A.py
+2026-04-30  08:11 PM             1,593 view_student_scores.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_7A.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              32 File(s)         51,884 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_7B
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_7B.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_7B.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_7B.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,635 grade_7B_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,603 insert_student_scores.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_7B.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,697 semester_analysis_grade_7B.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_7B.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_7B.py
+2026-04-30  08:11 PM             1,703 view_student_roster_grade_7B.py
+2026-04-30  08:11 PM             1,593 view_student_scores.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_7B.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              28 File(s)         45,768 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_7C
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_7C.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_7C.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_7C.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,635 grade_7C_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,603 insert_student_scores.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_7C.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_7C.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_7C.py
+2026-04-30  08:11 PM             1,703 view_student_roster_grade_7C.py
+2026-04-30  08:11 PM             1,593 view_student_scores.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_7C.py
+2026-04-30  08:11 PM             1,583 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              27 File(s)         44,073 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_7D
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_7D.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_7D.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,635 grade_7D_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,603 insert_student_scores.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,717 student_statistics_grade_7D.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_7D.py
+2026-04-30  08:11 PM             1,703 view_student_roster_grade_7D.py
+2026-04-30  08:11 PM             1,593 view_student_scores.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_7D.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              25 File(s)         40,643 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_8A
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_8A.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_8A.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_8A.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,635 grade_8A_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,603 insert_student_scores.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_8A.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,721 student_statistics_grade_8A.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_8A.py
+2026-04-30  08:11 PM             1,703 view_student_roster_grade_8A.py
+2026-04-30  08:11 PM             1,593 view_student_scores.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_8A.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              27 File(s)         44,075 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_8B
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_8B.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_8B.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_8B.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,635 grade_8B_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,603 insert_student_scores.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_8B.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,721 student_statistics_grade_8B.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_8B.py
+2026-04-30  08:11 PM             1,703 view_student_roster_grade_8B.py
+2026-04-30  08:11 PM             1,593 view_student_scores.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_8B.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              27 File(s)         44,075 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_8C
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_8C.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_8C.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_8C.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,635 grade_8C_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,603 insert_student_scores.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_8C.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,721 student_statistics_grade_8C.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_8C.py
+2026-04-30  08:11 PM             1,703 view_student_roster_grade_8C.py
+2026-04-30  08:11 PM             1,593 view_student_scores.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_8C.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              27 File(s)         44,075 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\grade_8D
+
+2026-04-30  08:11 PM             1,765 annual_average_analysis_grade_8D.py
+2026-04-30  08:11 PM             1,815 combined_semester_analysis_grade_8D.py
+2026-04-30  08:11 PM             1,525 edit_assessment.py
+2026-04-30  08:11 PM             1,689 edit_student_scores_grade_8D.py
+2026-04-30  08:11 PM             1,737 edit_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,775 edit_transfer_sheet_both_semesters.py
+2026-04-30  08:11 PM             1,525 excel_import.py
+2026-04-30  08:11 PM             1,483 get_sections.py
+2026-04-30  08:11 PM             1,637 get_students_by_section.py
+2026-04-30  08:11 PM             1,635 grade_8D_rt_dashboard.py
+2026-04-30  08:11 PM             1,569 insert_assessment.py
+2026-04-30  08:11 PM             1,581 insert_assessment2.py
+2026-04-30  08:11 PM             1,603 insert_student_scores.py
+2026-04-30  08:11 PM             1,739 insert_student_scores_grade_8D.py
+2026-04-30  08:11 PM             1,607 insert_transfer_sheet.py
+2026-04-30  08:11 PM             1,785 insert_transfer_sheet_2nd_semester.py
+2026-04-30  08:11 PM             1,487 materials.py
+2026-04-30  08:11 PM             1,745 student_statistics_grade_8D.py
+2026-04-30  08:11 PM             1,537 transfer_scores.py
+2026-04-30  08:11 PM             1,399 upload.py
+2026-04-30  08:11 PM             1,557 view_assessment.py
+2026-04-30  08:11 PM             1,713 view_student_average_grade_8D.py
+2026-04-30  08:11 PM             1,703 view_student_roster_grade_8D.py
+2026-04-30  08:11 PM             1,593 view_student_scores.py
+2026-04-30  08:11 PM             1,721 view_student_scores_grade_8D.py
+2026-04-30  08:11 PM             1,581 view_transfer_sheet.py
+2026-04-30  08:11 PM             1,593 view_transfer_sheet2.py
+              27 File(s)         44,099 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-1A
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,577 KG-1A_rt_dashboard.py
+               2 File(s)          3,078 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-1B
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,577 KG-1B_rt_dashboard.py
+               2 File(s)          3,078 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-1C
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,565 KG-1C_rt_dashboard.py
+               2 File(s)          3,066 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-1D
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,565 KG-1D_rt_dashboard.py
+               2 File(s)          3,066 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-2A
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,563 KG-2A_rt_dashboard.py
+               2 File(s)          3,064 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-2B
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,563 KG-2B_rt_dashboard.py
+               2 File(s)          3,064 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-2C
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,563 KG-2C_rt_dashboard.py
+               2 File(s)          3,064 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-2D
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,563 KG-2D_rt_dashboard.py
+               2 File(s)          3,064 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-3A
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,563 KG-3A_rt_dashboard.py
+               2 File(s)          3,064 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-3B
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,563 KG-3B_rt_dashboard.py
+               2 File(s)          3,064 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-3C
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,563 KG-3C_rt_dashboard.py
+               2 File(s)          3,064 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\room_teacher\KG-3D
+
+2026-04-30  08:11 PM             1,501 excel_import.py
+2026-04-30  08:11 PM             1,563 KG-3D_rt_dashboard.py
+               2 File(s)          3,064 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\src
+
+2026-04-29  03:55 PM             1,431 app.py
+2026-04-29  03:07 PM               877 config.py
+2026-04-29  02:29 PM               684 config_backup.py
+2026-04-29  02:28 PM               614 database.py
+2026-04-29  03:50 PM             3,058 jwt_utils.py
+2026-04-30  07:37 PM             3,776 models.py
+2026-04-29  02:30 PM                 0 __init__.py
+               7 File(s)         10,440 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\student
+
+2026-04-30  08:11 PM             1,441 student_dashboard.py
+               1 File(s)          1,441 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher
+
+2026-04-30  08:11 PM             1,351 header.py
+2026-04-30  08:11 PM             1,589 subject_teacher_session.py
+2026-04-30  08:11 PM             1,617 subject_teacher_session22.py
+               3 File(s)          4,557 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_1_Arts
+
+2026-04-30  08:11 PM             1,623 delete_assessment.py
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,579 grade_1_Arts.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,541 materials.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,455 upload.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               9 File(s)         14,125 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_1_English
+
+2026-04-30  08:11 PM             1,647 delete_assessment.py
+2026-04-30  08:11 PM             1,605 edit_assessment.py
+2026-04-30  08:11 PM             1,563 get_sections.py
+2026-04-30  08:11 PM             1,645 grade_1_English.py
+2026-04-30  08:11 PM             1,649 insert_assessment.py
+2026-04-30  08:11 PM             1,567 materials.py
+2026-04-30  08:11 PM             1,593 submit_grades.py
+2026-04-30  08:11 PM             1,479 upload.py
+2026-04-30  08:11 PM             1,637 view_assessment.py
+               9 File(s)         14,385 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_1_Env_Science
+
+2026-04-30  08:11 PM             1,679 delete_assessment.py
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,753 grade_1_Env_Science.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,599 materials.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,511 upload.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               9 File(s)         14,749 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_1_HPE
+
+2026-04-30  08:11 PM             1,615 delete_assessment.py
+2026-04-30  08:11 PM             1,573 edit_assessment.py
+2026-04-30  08:11 PM             1,531 get_sections.py
+2026-04-30  08:11 PM             1,557 grade_1_HPE.py
+2026-04-30  08:11 PM             1,617 insert_assessment.py
+2026-04-30  08:11 PM             1,535 materials.py
+2026-04-30  08:11 PM             1,561 submit_grades.py
+2026-04-30  08:11 PM             1,447 upload.py
+2026-04-30  08:11 PM             1,605 view_assessment.py
+               9 File(s)         14,041 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_2_Amharic
+
+2026-04-30  08:11 PM             1,647 delete_assessment.py
+2026-04-30  08:11 PM             1,605 edit_assessment.py
+2026-04-30  08:11 PM             1,563 get_sections.py
+2026-04-30  08:11 PM             1,645 grade_2_Amharic.py
+2026-04-30  08:11 PM             1,649 insert_assessment.py
+2026-04-30  08:11 PM             1,567 materials.py
+2026-04-30  08:11 PM             1,593 submit_grades.py
+2026-04-30  08:11 PM             1,479 upload.py
+2026-04-30  08:11 PM             1,637 view_assessment.py
+               9 File(s)         14,385 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_2_Arts
+
+2026-04-30  08:11 PM             1,623 delete_assessment.py
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,579 grade_2_Arts.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,543 materials.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,455 upload.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               9 File(s)         14,127 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_2_English
+
+2026-04-30  08:11 PM             1,647 delete_assessment.py
+2026-04-30  08:11 PM             1,605 edit_assessment.py
+2026-04-30  08:11 PM             1,563 get_sections.py
+2026-04-30  08:11 PM             1,645 grade_2_English.py
+2026-04-30  08:11 PM             1,649 insert_assessment.py
+2026-04-30  08:11 PM             1,567 materials.py
+2026-04-30  08:11 PM             1,593 submit_grades.py
+2026-04-30  08:11 PM             1,479 upload.py
+2026-04-30  08:11 PM             1,637 view_assessment.py
+               9 File(s)         14,385 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_2_Ethics
+
+2026-04-30  08:11 PM             1,639 delete_assessment.py
+2026-04-30  08:11 PM             1,597 edit_assessment.py
+2026-04-30  08:11 PM             1,555 get_sections.py
+2026-04-30  08:11 PM             1,623 grade_2_Ethics.py
+2026-04-30  08:11 PM             1,641 insert_assessment.py
+2026-04-30  08:11 PM             1,585 submit_grades.py
+2026-04-30  08:11 PM             1,629 view_assessment.py
+               7 File(s)         11,269 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_3_Amharic
+
+2026-04-30  08:11 PM             1,647 delete_assessment.py
+2026-04-30  08:11 PM             1,605 edit_assessment.py
+2026-04-30  08:11 PM             1,563 get_sections.py
+2026-04-30  08:11 PM             1,645 grade_3_Amharic.py
+2026-04-30  08:11 PM             1,649 insert_assessment.py
+2026-04-30  08:11 PM             1,593 submit_grades.py
+2026-04-30  08:11 PM             1,637 view_assessment.py
+               7 File(s)         11,339 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_3_Ethics
+
+2026-04-30  08:11 PM             1,639 delete_assessment.py
+2026-04-30  08:11 PM             1,597 edit_assessment.py
+2026-04-30  08:11 PM             1,555 get_sections.py
+2026-04-30  08:11 PM             1,623 grade_3_Ethics.py
+2026-04-30  08:11 PM             1,641 insert_assessment.py
+2026-04-30  08:11 PM             1,585 submit_grades.py
+2026-04-30  08:11 PM             1,629 view_assessment.py
+               7 File(s)         11,269 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_3_Mathematics
+
+2026-04-30  08:11 PM             1,679 delete_assessment.py
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,733 grade_3_Mathematics.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               7 File(s)         11,619 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_4_Amharic
+
+2026-04-30  08:11 PM             1,647 delete_assessment.py
+2026-04-30  08:11 PM             1,605 edit_assessment.py
+2026-04-30  08:11 PM             1,563 get_sections.py
+2026-04-30  08:11 PM             1,645 grade_4_Amharic.py
+2026-04-30  08:11 PM             1,649 insert_assessment.py
+2026-04-30  08:11 PM             1,593 submit_grades.py
+2026-04-30  08:11 PM             1,637 view_assessment.py
+               7 File(s)         11,339 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_4_Env_Science
+
+2026-04-30  08:11 PM             1,679 delete_assessment.py
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,753 grade_4_Env_Science.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               7 File(s)         11,639 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_4_HPE
+
+2026-04-30  08:11 PM             1,615 delete_assessment.py
+2026-04-30  08:11 PM             1,573 edit_assessment.py
+2026-04-30  08:11 PM             1,531 get_sections.py
+2026-04-30  08:11 PM             1,557 grade_4_HPE.py
+2026-04-30  08:11 PM             1,617 insert_assessment.py
+2026-04-30  08:11 PM             1,561 submit_grades.py
+2026-04-30  08:11 PM             1,605 view_assessment.py
+               7 File(s)         11,059 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_4_Mathematics
+
+2026-04-30  08:11 PM             1,679 delete_assessment.py
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,733 grade_4_Mathematics.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               7 File(s)         11,619 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_5_Arts
+
+2026-04-30  08:11 PM             1,623 delete_assessment.py
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,579 grade_5_Arts.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               7 File(s)         11,129 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_5_English
+
+2026-04-30  08:11 PM             1,647 delete_assessment.py
+2026-04-30  08:11 PM             1,605 edit_assessment.py
+2026-04-30  08:11 PM             1,563 get_sections.py
+2026-04-30  08:11 PM             1,645 grade_5_English.py
+2026-04-30  08:11 PM             1,649 insert_assessment.py
+2026-04-30  08:11 PM             1,593 submit_grades.py
+2026-04-30  08:11 PM             1,637 view_assessment.py
+               7 File(s)         11,339 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_5_Env_Science
+
+2026-04-30  08:11 PM             1,679 delete_assessment.py
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,753 grade_5_Env_Science.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               7 File(s)         11,639 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_5_Ethics
+
+2026-04-30  08:11 PM             1,639 delete_assessment.py
+2026-04-30  08:11 PM             1,597 edit_assessment.py
+2026-04-30  08:11 PM             1,555 get_sections.py
+2026-04-30  08:11 PM             1,623 grade_5_Ethics.py
+2026-04-30  08:11 PM             1,641 insert_assessment.py
+2026-04-30  08:11 PM             1,585 submit_grades.py
+2026-04-30  08:11 PM             1,629 view_assessment.py
+               7 File(s)         11,269 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_5_HPE
+
+2026-04-30  08:11 PM             1,615 delete_assessment.py
+2026-04-30  08:11 PM             1,573 edit_assessment.py
+2026-04-30  08:11 PM             1,531 get_sections.py
+2026-04-30  08:11 PM             1,557 grade_5_HPE.py
+2026-04-30  08:11 PM             1,617 insert_assessment.py
+2026-04-30  08:11 PM             1,561 submit_grades.py
+2026-04-30  08:11 PM             1,605 view_assessment.py
+               7 File(s)         11,059 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_6_Amharic
+
+2026-04-30  08:11 PM             1,647 delete_assessment.py
+2026-04-30  08:11 PM             1,605 edit_assessment.py
+2026-04-30  08:11 PM             1,563 get_sections.py
+2026-04-30  08:11 PM             1,645 grade_6_Amharic.py
+2026-04-30  08:11 PM             1,649 insert_assessment.py
+2026-04-30  08:11 PM             1,593 submit_grades.py
+2026-04-30  08:11 PM             1,637 view_assessment.py
+               7 File(s)         11,339 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_6_Arts
+
+2026-04-30  08:11 PM             1,623 delete_assessment.py
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,579 grade_6_Arts.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               7 File(s)         11,129 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_6_Env_Science
+
+2026-04-30  08:11 PM             1,679 delete_assessment.py
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,753 grade_6_Env_Science.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               7 File(s)         11,639 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_6_Ethics
+
+2026-04-30  08:11 PM             1,639 delete_assessment.py
+2026-04-30  08:11 PM             1,597 edit_assessment.py
+2026-04-30  08:11 PM             1,555 get_sections.py
+2026-04-30  08:11 PM             1,623 grade_6_Ethics.py
+2026-04-30  08:11 PM             1,641 insert_assessment.py
+2026-04-30  08:11 PM             1,585 submit_grades.py
+2026-04-30  08:11 PM             1,629 view_assessment.py
+               7 File(s)         11,269 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_6_HPE
+
+2026-04-30  08:11 PM             1,615 delete_assessment.py
+2026-04-30  08:11 PM             1,573 edit_assessment.py
+2026-04-30  08:11 PM             1,531 get_sections.py
+2026-04-30  08:11 PM             1,557 grade_6_HPE.py
+2026-04-30  08:11 PM             1,617 insert_assessment.py
+2026-04-30  08:11 PM             1,561 submit_grades.py
+2026-04-30  08:11 PM             1,605 view_assessment.py
+               7 File(s)         11,059 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_6_Mathematics
+
+2026-04-30  08:11 PM             1,679 delete_assessment.py
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,733 grade_6_Mathematics.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               7 File(s)         11,619 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_7_Amharic
+
+2026-04-30  08:11 PM             1,647 delete_assessment.py
+2026-04-30  08:11 PM             1,533 download.py
+2026-04-30  08:11 PM             1,605 edit_assessment.py
+2026-04-30  08:11 PM             1,563 get_sections.py
+2026-04-30  08:11 PM             1,645 grade_7_Amharic.py
+2026-04-30  08:11 PM             1,649 insert_assessment.py
+2026-04-30  08:11 PM             1,593 submit_grades.py
+2026-04-30  08:11 PM             1,559 upload.py
+2026-04-30  08:11 PM             1,637 view_assessment.py
+               9 File(s)         14,431 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_7_Arts
+
+2026-04-30  08:11 PM             1,623 delete_assessment.py
+2026-04-30  08:11 PM             1,509 download.py
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,579 grade_7_Arts.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,535 upload.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               9 File(s)         14,173 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_7_Citizenship
+
+2026-04-30  08:11 PM             1,679 delete_assessment.py
+2026-04-30  08:11 PM             1,565 download.py
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,733 grade_7_Citizenship.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,591 upload.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               9 File(s)         14,775 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_7_CTE
+
+2026-04-30  08:11 PM             1,615 delete_assessment.py
+2026-04-30  08:11 PM             1,501 download.py
+2026-04-30  08:11 PM             1,573 edit_assessment.py
+2026-04-30  08:11 PM             1,531 get_sections.py
+2026-04-30  08:11 PM             1,557 grade_7_CTE.py
+2026-04-30  08:11 PM             1,617 insert_assessment.py
+2026-04-30  08:11 PM             1,561 submit_grades.py
+2026-04-30  08:11 PM             1,527 upload.py
+2026-04-30  08:11 PM             1,605 view_assessment.py
+               9 File(s)         14,087 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_7_English
+
+2026-04-30  08:11 PM             1,647 delete_assessment.py
+2026-04-30  08:11 PM             1,533 download.py
+2026-04-30  08:11 PM             1,605 edit_assessment.py
+2026-04-30  08:11 PM             1,563 get_sections.py
+2026-04-30  08:11 PM             1,645 grade_7_English.py
+2026-04-30  08:11 PM             1,649 insert_assessment.py
+2026-04-30  08:11 PM             1,593 submit_grades.py
+2026-04-30  08:11 PM             1,559 upload.py
+2026-04-30  08:11 PM             1,637 view_assessment.py
+               9 File(s)         14,431 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_7_Gen_Science
+
+2026-04-30  08:11 PM             1,565 download.py
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,741 grade_7_Gen_Science.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,591 upload.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               8 File(s)         13,104 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_7_HPE
+
+2026-04-30  08:11 PM             1,501 download.py
+2026-04-30  08:11 PM             1,573 edit_assessment.py
+2026-04-30  08:11 PM             1,531 get_sections.py
+2026-04-30  08:11 PM             1,557 grade_7_HPE.py
+2026-04-30  08:11 PM             1,617 insert_assessment.py
+2026-04-30  08:11 PM             1,561 submit_grades.py
+2026-04-30  08:11 PM             1,527 upload.py
+2026-04-30  08:11 PM             1,605 view_assessment.py
+               8 File(s)         12,472 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_7_IT
+
+2026-04-30  08:11 PM             1,493 download.py
+2026-04-30  08:11 PM             1,565 edit_assessment.py
+2026-04-30  08:11 PM             1,523 get_sections.py
+2026-04-30  08:11 PM             1,535 grade_7_IT.py
+2026-04-30  08:11 PM             1,609 insert_assessment.py
+2026-04-30  08:11 PM             1,553 submit_grades.py
+2026-04-30  08:11 PM             1,519 upload.py
+2026-04-30  08:11 PM             1,597 view_assessment.py
+               8 File(s)         12,394 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_7_Mathematics
+
+2026-04-30  08:11 PM             1,565 download.py
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,733 grade_7_Mathematics.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,591 upload.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               8 File(s)         13,096 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_7_Soc_Science
+
+2026-04-30  08:11 PM             1,565 download.py
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,739 grade_7_Soc_Science.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,591 upload.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               8 File(s)         13,102 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_8_Amharic
+
+2026-04-30  08:11 PM             1,605 edit_assessment.py
+2026-04-30  08:11 PM             1,563 get_sections.py
+2026-04-30  08:11 PM             1,645 grade_8_Amharic.py
+2026-04-30  08:11 PM             1,649 insert_assessment.py
+2026-04-30  08:11 PM             1,593 submit_grades.py
+2026-04-30  08:11 PM             1,637 view_assessment.py
+               6 File(s)          9,692 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_8_Arts
+
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,579 grade_8_Arts.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               6 File(s)          9,506 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_8_Citizenship
+
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,733 grade_8_Citizenship.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               6 File(s)          9,940 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_8_CTE
+
+2026-04-30  08:11 PM             1,573 edit_assessment.py
+2026-04-30  08:11 PM             1,531 get_sections.py
+2026-04-30  08:11 PM             1,557 grade_8_CTE.py
+2026-04-30  08:11 PM             1,617 insert_assessment.py
+2026-04-30  08:11 PM             1,561 submit_grades.py
+2026-04-30  08:11 PM             1,605 view_assessment.py
+               6 File(s)          9,444 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_8_English
+
+2026-04-30  08:11 PM             1,605 edit_assessment.py
+2026-04-30  08:11 PM             1,563 get_sections.py
+2026-04-30  08:11 PM             1,645 grade_8_English.py
+2026-04-30  08:11 PM             1,649 insert_assessment.py
+2026-04-30  08:11 PM             1,593 submit_grades.py
+2026-04-30  08:11 PM             1,637 view_assessment.py
+               6 File(s)          9,692 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_8_Gen_Science
+
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,741 grade_8_Gen_Science.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               6 File(s)          9,948 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_8_HPE
+
+2026-04-30  08:11 PM             1,573 edit_assessment.py
+2026-04-30  08:11 PM             1,531 get_sections.py
+2026-04-30  08:11 PM             1,557 grade_8_HPE.py
+2026-04-30  08:11 PM             1,617 insert_assessment.py
+2026-04-30  08:11 PM             1,561 submit_grades.py
+2026-04-30  08:11 PM             1,605 view_assessment.py
+               6 File(s)          9,444 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_8_IT
+
+2026-04-30  08:11 PM             1,565 edit_assessment.py
+2026-04-30  08:11 PM             1,523 get_sections.py
+2026-04-30  08:11 PM             1,535 grade_8_IT.py
+2026-04-30  08:11 PM             1,609 insert_assessment.py
+2026-04-30  08:11 PM             1,553 submit_grades.py
+2026-04-30  08:11 PM             1,597 view_assessment.py
+               6 File(s)          9,382 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_8_Mathematics
+
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,733 grade_8_Mathematics.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               6 File(s)          9,940 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\grade_8_Soc_Science
+
+2026-04-30  08:11 PM             1,637 edit_assessment.py
+2026-04-30  08:11 PM             1,595 get_sections.py
+2026-04-30  08:11 PM             1,739 grade_8_Soc_Science.py
+2026-04-30  08:11 PM             1,681 insert_assessment.py
+2026-04-30  08:11 PM             1,625 submit_grades.py
+2026-04-30  08:11 PM             1,669 view_assessment.py
+               6 File(s)          9,946 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-1_Amharic
+
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,575 KG-1_Amharic.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               6 File(s)          9,502 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-1_Arts
+
+2026-04-30  08:11 PM             1,557 edit_assessment.py
+2026-04-30  08:11 PM             1,515 get_sections.py
+2026-04-30  08:11 PM             1,601 insert_assessment.py
+2026-04-30  08:11 PM             1,509 KG-1_Arts.py
+2026-04-30  08:11 PM             1,545 submit_grades.py
+2026-04-30  08:11 PM             1,589 view_assessment.py
+               6 File(s)          9,316 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-1_English
+
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,575 KG-1_English.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               6 File(s)          9,502 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-1_Env_Science
+
+2026-04-30  08:11 PM             1,613 edit_assessment.py
+2026-04-30  08:11 PM             1,571 get_sections.py
+2026-04-30  08:11 PM             1,657 insert_assessment.py
+2026-04-30  08:11 PM             1,683 KG-1_Env_Science.py
+2026-04-30  08:11 PM             1,601 submit_grades.py
+2026-04-30  08:11 PM             1,645 view_assessment.py
+               6 File(s)          9,770 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-1_Mathematics
+
+2026-04-30  08:11 PM             1,613 edit_assessment.py
+2026-04-30  08:11 PM             1,571 get_sections.py
+2026-04-30  08:11 PM             1,657 insert_assessment.py
+2026-04-30  08:11 PM             1,663 KG-1_Mathematics.py
+2026-04-30  08:11 PM             1,601 submit_grades.py
+2026-04-30  08:11 PM             1,645 view_assessment.py
+               6 File(s)          9,750 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-2_Amharic
+
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,575 KG-2_Amharic.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               6 File(s)          9,502 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-2_Arts
+
+2026-04-30  08:11 PM             1,557 edit_assessment.py
+2026-04-30  08:11 PM             1,515 get_sections.py
+2026-04-30  08:11 PM             1,601 insert_assessment.py
+2026-04-30  08:11 PM             1,509 KG-2_Arts.py
+2026-04-30  08:11 PM             1,545 submit_grades.py
+2026-04-30  08:11 PM             1,589 view_assessment.py
+               6 File(s)          9,316 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-2_English
+
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,575 KG-2_English.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               6 File(s)          9,502 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-2_Env_Science
+
+2026-04-30  08:11 PM             1,613 edit_assessment.py
+2026-04-30  08:11 PM             1,571 get_sections.py
+2026-04-30  08:11 PM             1,657 insert_assessment.py
+2026-04-30  08:11 PM             1,683 KG-2_Env_Science.py
+2026-04-30  08:11 PM             1,601 submit_grades.py
+2026-04-30  08:11 PM             1,645 view_assessment.py
+               6 File(s)          9,770 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-2_Mathematics
+
+2026-04-30  08:11 PM             1,613 edit_assessment.py
+2026-04-30  08:11 PM             1,571 get_sections.py
+2026-04-30  08:11 PM             1,657 insert_assessment.py
+2026-04-30  08:11 PM             1,663 KG-2_Mathematics.py
+2026-04-30  08:11 PM             1,601 submit_grades.py
+2026-04-30  08:11 PM             1,645 view_assessment.py
+               6 File(s)          9,750 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-3_Amharic
+
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,575 KG-3_Amharic.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               6 File(s)          9,502 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-3_Arts
+
+2026-04-30  08:11 PM             1,557 edit_assessment.py
+2026-04-30  08:11 PM             1,515 get_sections.py
+2026-04-30  08:11 PM             1,601 insert_assessment.py
+2026-04-30  08:11 PM             1,509 KG-3_Arts.py
+2026-04-30  08:11 PM             1,545 submit_grades.py
+2026-04-30  08:11 PM             1,589 view_assessment.py
+               6 File(s)          9,316 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-3_English
+
+2026-04-30  08:11 PM             1,581 edit_assessment.py
+2026-04-30  08:11 PM             1,539 get_sections.py
+2026-04-30  08:11 PM             1,625 insert_assessment.py
+2026-04-30  08:11 PM             1,575 KG-3_English.py
+2026-04-30  08:11 PM             1,569 submit_grades.py
+2026-04-30  08:11 PM             1,613 view_assessment.py
+               6 File(s)          9,502 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-3_Env_Science
+
+2026-04-30  08:11 PM             1,613 edit_assessment.py
+2026-04-30  08:11 PM             1,571 get_sections.py
+2026-04-30  08:11 PM             1,657 insert_assessment.py
+2026-04-30  08:11 PM             1,683 KG-3_Env_Science.py
+2026-04-30  08:11 PM             1,601 submit_grades.py
+2026-04-30  08:11 PM             1,645 view_assessment.py
+               6 File(s)          9,770 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\subject_teacher\KG-3_Mathematics
+
+2026-04-30  08:11 PM             1,613 edit_assessment.py
+2026-04-30  08:11 PM             1,571 get_sections.py
+2026-04-30  08:11 PM             1,657 insert_assessment.py
+2026-04-30  08:11 PM             1,661 KG-3_Mathematics.py
+2026-04-30  08:11 PM             1,601 submit_grades.py
+2026-04-30  08:11 PM             1,645 view_assessment.py
+               6 File(s)          9,748 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\supervisor
+
+2026-04-30  08:11 PM             1,507 supervisor_dashboard.py
+               1 File(s)          1,507 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\vice_director
+
+2026-04-30  08:11 PM             1,489 active_sections.py
+2026-04-30  08:11 PM             1,461 edit_assessment.py
+2026-04-30  08:11 PM             1,391 edit_class.py
+2026-04-30  08:11 PM             1,391 edit_grade.py
+2026-04-30  08:11 PM             1,405 edit_parent.py
+2026-04-30  08:11 PM             1,419 edit_section.py
+2026-04-30  08:11 PM             1,419 edit_student.py
+2026-04-30  08:11 PM             1,521 edit_student_parent.py
+2026-04-30  08:11 PM             1,517 edit_student_scores.py
+2026-04-30  08:11 PM             1,419 edit_subject.py
+2026-04-30  08:11 PM             1,465 edit_teacher.py
+2026-04-30  08:11 PM             1,573 edit_teacher_assignment.py
+2026-04-30  08:11 PM             1,531 generate_report_card.py
+2026-04-30  08:11 PM             1,475 get_all_students.py
+2026-04-30  08:11 PM             1,545 get_reference_options.py
+2026-04-30  08:11 PM             1,419 get_sections.py
+2026-04-30  08:11 PM             1,419 get_teachers.py
+2026-04-30  08:11 PM             1,559 grade_level_analysis.py
+2026-04-30  08:11 PM             1,607 grade_level_analysis_all.py
+2026-04-30  08:11 PM             1,619 grade_level_analysis_all2.py
+2026-04-30  08:11 PM             1,663 grade_level_analysis_average.py
+2026-04-30  08:11 PM             1,657 grade_level_analysis_semester.py
+2026-04-30  08:11 PM             1,643 grade_level_summary_analysis.py
+2026-04-30  08:11 PM             1,467 grade_sections.py
+2026-04-30  08:11 PM             1,497 insert_admin_staff.py
+2026-04-30  08:11 PM             1,419 insert_class.py
+2026-04-30  08:11 PM             1,419 insert_grade.py
+2026-04-30  08:11 PM             1,405 insert_room.py
+2026-04-30  08:11 PM             1,447 insert_section.py
+2026-04-30  08:11 PM             1,451 insert_student.py
+2026-04-30  08:11 PM             1,553 insert_student_parent.py
+2026-04-30  08:11 PM             1,539 insert_student_scores.py
+2026-04-30  08:11 PM             1,449 insert_subject.py
+2026-04-30  08:11 PM             1,441 insert_teacher.py
+2026-04-30  08:11 PM             1,587 insert_teacher_assignment.py
+2026-04-30  08:11 PM             1,569 search_student_parent.py
+2026-04-30  08:11 PM             1,545 search_student_score.py
+2026-04-30  08:11 PM             1,489 semester_analysis.py
+2026-04-30  08:11 PM             1,669 semester_and_average_analysis.py
+2026-04-30  08:11 PM             1,529 student_statistics.py
+2026-04-30  08:11 PM             1,667 subject_based_summary_analysis.py
+2026-04-30  08:11 PM             1,433 teachers_list.py
+2026-04-30  08:11 PM             1,503 teacher_category.py
+2026-04-30  08:11 PM             1,549 teacher_details.py
+2026-04-30  08:11 PM             1,573 vice_director_dashboard.py
+2026-04-30  08:11 PM             1,521 view_admin_staff.py
+2026-04-30  08:11 PM             1,493 view_assessment.py
+2026-04-30  08:11 PM             1,395 view_class.py
+2026-04-30  08:11 PM             1,493 view_class_details.py
+2026-04-30  08:11 PM             1,393 view_grade.py
+2026-04-30  08:11 PM             1,379 view_room.py
+2026-04-30  08:11 PM             1,421 view_section.py
+2026-04-30  08:11 PM             1,619 view_student_average_scores.py
+2026-04-30  08:11 PM             1,545 view_student_parent.py
+2026-04-30  08:11 PM             1,647 view_student_parent_paginated.py
+2026-04-30  08:11 PM             1,529 view_student_roster.py
+2026-04-30  08:11 PM             1,529 view_student_scores.py
+2026-04-30  08:11 PM             1,421 view_subject.py
+2026-04-30  08:11 PM             1,425 view_teacher.py
+2026-04-30  08:11 PM             1,575 view_teacher_assignment.py
+2026-04-30  08:11 PM             1,587 view_teacher_assignment3.py
+              61 File(s)         91,779 bytes
+
+ Directory of C:\xampp\htdocs\roster_python\written_materials
+
+2026-04-30  08:11 PM             1,339 auth.py
+2026-04-30  08:11 PM             1,395 download.py
+2026-04-30  08:11 PM             1,433 materials.py
+2026-04-30  08:11 PM             1,409 save_file.py
+2026-04-30  08:11 PM             1,411 upload.py
+2026-04-30  08:11 PM             1,423 upload2.py
+2026-04-30  08:11 PM             1,479 upload_handler.py
+               7 File(s)          9,889 bytes
+
+     Total Files Listed:
+            1690 File(s)      2,914,137 bytes
+               0 Dir(s)  72,648,765,440 bytes free

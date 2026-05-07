@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Director Dashboard{% endblock %}
+
+{% block dashboard_css %}
+<link rel="stylesheet" href="/static/css/dashboards/director/director.css">
+<link rel="stylesheet" href="/static/css/modules/statistics.css">
+{% endblock %}
+
+{% block header_title %}Director Dashboard{% endblock %}
+
+{% block sidebar %}
+<nav class="sidebar-nav">
+    <ul>
+        <li><a href="/director/director_dashboard"><i class="fas fa-home"></i> Dashboard</a></li>
+        <li><a href="/director/student_statistics"><i class="fas fa-chart-line"></i> Student Stats</a></li>
+        <li><a href="/director/teacher_category"><i class="fas fa-chalkboard-teacher"></i> Teachers</a></li>
+        <li><a href="/director/active_sections"><i class="fas fa-door-open"></i> Active Sections</a></li>
+        <li><a href="/director/insert_grade"><i class="fas fa-plus"></i> Insert Grade</a></li>
+        <li><a href="/director/view_grade"><i class="fas fa-eye"></i> View Grades</a></li>
+        <li><a href="/director/insert_section"><i class="fas fa-plus"></i> Insert Section</a></li>
+        <li><a href="/director/view_section"><i class="fas fa-eye"></i> View Sections</a></li>
+        <li><a href="/director/insert_student_parent"><i class="fas fa-user-plus"></i> Register Student</a></li>
+        <li><a href="/director/view_student_parent_paginated"><i class="fas fa-users"></i> View Students</a></li>
+        <li><a href="/director/insert_teacher"><i class="fas fa-chalkboard-teacher"></i> Register Teacher</a></li>
+        <li><a href="/director/view_teacher"><i class="fas fa-eye"></i> View Teachers</a></li>
+        <li><a href="/director/insert_users"><i class="fas fa-user-plus"></i> Create User</a></li>
+        <li><a href="/director/view_users"><i class="fas fa-users"></i> View Users</a></li>
+    </ul>
+</nav>
+{% endblock %}
+
+{% block dashboard_js %}
+<script src="/static/js/dashboards/director.js"></script>
+{% endblock %}

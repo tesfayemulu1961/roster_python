@@ -1,0 +1,292 @@
+/* ==============================================
+   Report Card Styles
+   ============================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #000;
+    line-height: 1.4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid #000;
+}
+
+.school-name {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.report-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.academic-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.student-selector {
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+select, button, .search-input {
+    padding: 12px 20px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-input {
+    width: 250px;
+}
+
+select {
+    width: 500px;
+}
+
+button {
+    background: #4ca1af;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #3a8a97;
+}
+
+.clear-btn {
+    background-color: #dc3545;
+}
+
+.clear-btn:hover {
+    background-color: #c82333;
+}
+
+.search-container {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.selector-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.report-content {
+    padding: 20px;
+}
+
+.student-info {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.info-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.info-label {
+    font-weight: bold;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.grades-table th, .grades-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+.grades-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.signature-area {
+    margin-top: 30px;
+}
+
+.signature-line {
+    border-top: 1px solid #000;
+    margin-top: 40px;
+    padding-top: 5px;
+    font-style: italic;
+}
+
+.teacher-signature {
+    float: left;
+    width: 45%;
+}
+
+.parent-signature {
+    float: right;
+    width: 45%;
+}
+
+.clear {
+    clear: both;
+}
+
+.action-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.print-btn {
+    padding: 12px 25px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.print-btn:hover {
+    background-color: #1e2a36;
+}
+
+@media print {
+    .action-buttons, .student-selector {
+        display: none;
+    }
+    body {
+        padding: 0;
+        background: white;
+    }
+    .container {
+        box-shadow: none;
+    }
+}
+
+.school-remark {
+    margin-top: 20px;
+}
+
+.remark-line {
+    border-bottom: 1px solid #000;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.no-data {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #666;
+}
+
+.semester-1st {
+    background-color: #f8f9fa;
+}
+
+.semester-2nd {
+    background-color: #e9ecef;
+}
+
+.semester-avr {
+    background-color: #dee2e6;
+}
+
+.summary-cell {
+    background-color: #ced4da;
+    font-weight: bold;
+}
+
+.pass {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.fail {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.rank-cell {
+    font-weight: bold;
+    color: #1a237e;
+}
+
+.conduct-poor {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.current-selection {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e9f7fe;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.null-value {
+    color: #dc3545;
+    font-style: italic;
+    background-color: #fff3f3;
+}
+
+.low-score {
+    background-color: #ffebee;
+    color: #c62828;
+    font-weight: bold;
+}

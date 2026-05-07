@@ -1,0 +1,58 @@
+/* ============================================
+   GRADE CARD STYLES
+   ============================================ */
+
+.grade-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    background: white;
+    overflow: hidden;
+}
+
+.grade-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.grade-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    padding: 15px;
+}
+
+/* Grade Colors */
+.grade-1 { background-color: #3498db; }
+.grade-2 { background-color: #2ecc71; }
+.grade-3 { background-color: #e74c3c; }
+.grade-4 { background-color: #f39c12; }
+.grade-5 { background-color: #9b59b6; }
+.grade-6 { background-color: #1abc9c; }
+.grade-7 { background-color: #d35400; }
+.grade-8 { background-color: #34495e; }
+
+.summary-card {
+    background-color: #f8f9fa;
+    border-left: 4px solid #6c757d;
+}
+
+.section-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.student-count {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 0.8rem;
+}
+
+.table-active {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}

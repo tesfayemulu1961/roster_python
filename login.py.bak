@@ -1,0 +1,381 @@
+from flask import Flask, render_template_string, session, redirect, url_for, request
+from functools import wraps
+from datetime import datetime, timedelta
+import mysql.connector
+from werkzeug.security import check_password_hash
+import re
+
+app = Flask(__name__)
+app.secret_key = 'your-secret-key-change-this-in-production'
+
+# Database configuration
+db_config = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': '',
+    'database': 'roster'
+}
+
+def get_db():
+    return mysql.connector.connect(**db_config)
+
+# Activity logging function
+def record_activity(user_id, username, user_type, action, details=None):
+    """Record user activity in the activity_log table"""
+    try:
+        conn = get_db()
+        cursor = conn.cursor()
+        cursor.execute("""
+            INSERT INTO activity_log (user_id, username, action, details, ip_address, created_at)
+            VALUES (%s, %s, %s, %s, %s, NOW())
+        """, (user_id, username, action, details, request.remote_addr))
+        conn.commit()
+        cursor.close()
+        conn.close()
+    except Exception as e:
+        print(f"Error logging activity: {e}")
+
+def get_display_name(user_type, reference_id):
+    """Get display name based on user type"""
+    conn = get_db()
+    cursor = conn.cursor(dictionary=True)
+    display_name = None
+    
+    try:
+        if user_type in ['director', 'vice director', 'supervisor', 'KG director']:
+            cursor.execute("SELECT full_name FROM admin_staff WHERE ID = %s", (reference_id,))
+            result = cursor.fetchone()
+            if result:
+                display_name = result['full_name']
+                
+        elif 'teacher' in user_type.lower():
+            cursor.execute("SELECT name FROM teacher WHERE ID = %s", (reference_id,))
+            result = cursor.fetchone()
+            if result:
+                display_name = result['name']
+                
+        elif user_type == 'student':
+            cursor.execute("SELECT fullname FROM student WHERE RN = %s", (reference_id,))
+            result = cursor.fetchone()
+            if result:
+                display_name = result['fullname']
+                
+        elif user_type == 'parent':
+            cursor.execute("SELECT p_name FROM parent WHERE ID = %s", (reference_id,))
+            result = cursor.fetchone()
+            if result:
+                display_name = result['p_name']
+    except Exception as e:
+        print(f"Error getting display name: {e}")
+    
+    cursor.close()
+    conn.close()
+    
+    return display_name if display_name else session.get('username', 'User')
+
+def get_dashboard_path(user_type):
+    """Get dashboard URL based on user type"""
+    # Define dashboard paths
+    dashboards = {
+        'director': '/director/director_dashboard',
+        'vice director': '/vice_director/vice_director_dashboard',
+        'supervisor': '/supervisor/supervisor_dashboard',
+        'KG director': '/kg_director/kg_director_dashboard',
+        'student': '/student_dashboard',
+        'parent': '/parent_dashboard'
+    }
+    
+    # Check for room teacher patterns
+    room_teacher_match = re.search(r'room teacher grade (\d+)(?:th|rd|nd|st)?\s*([A-Z])', user_type, re.IGNORECASE)
+    if room_teacher_match:
+        grade = room_teacher_match.group(1)
+        section = room_teacher_match.group(2)
+        return f'/room_teacher/grade_{grade}{section}/dashboard'
+    
+    # Check for KG room teacher
+    kg_teacher_match = re.search(r'room teacher (KG-\d+)([A-Z])', user_type, re.IGNORECASE)
+    if kg_teacher_match:
+        kg_level = kg_teacher_match.group(1)
+        section = kg_teacher_match.group(2)
+        return f'/room_teacher/{kg_level}{section}/dashboard'
+    
+    # Check for subject teacher patterns
+    subject_teacher_match = re.search(r'subject teacher grade (\d+)(?:th|rd|nd|st)?\s*([A-Za-z\s]+)', user_type, re.IGNORECASE)
+    if subject_teacher_match:
+        grade = subject_teacher_match.group(1)
+        subject = subject_teacher_match.group(2).strip().replace(' ', '_')
+        return f'/subject_teacher/grade_{grade}_{subject}/dashboard'
+    
+    return dashboards.get(user_type, '/')
+
+# Login Template
+LOGIN_TEMPLATE = '''
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management System - Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            width: 400px;
+            padding: 40px;
+        }
+        .login-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .login-header h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .login-header p {
+            color: #666;
+            font-size: 14px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 500;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: translateY(-2px);
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+            border: 1px solid #f5c6cb;
+        }
+        .back-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .back-link a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h1>🔐 School Management System</h1>
+            <p>Enter your credentials to access the system</p>
+        </div>
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+        <form method="POST">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required autofocus>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="back-link">
+            <a href="/">← Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
+'''
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form.get('username')
+        password = request.form.get('password')
+        
+        conn = get_db()
+        cursor = conn.cursor(dictionary=True)
+        cursor.execute("SELECT user_id, username, password_hash, user_type, reference_id, account_status FROM users WHERE username = %s", (username,))
+        user = cursor.fetchone()
+        cursor.close()
+        conn.close()
+        
+        if user and user['account_status'] == 'active':
+            session['user_id'] = user['user_id']
+            session['username'] = user['username']
+            session['user_type'] = user['user_type']
+            session['reference_id'] = user['reference_id']
+            session['logged_in'] = True
+            
+            # Redirect based on user type
+            if user['user_type'] == 'director':
+                return redirect('/director/director_dashboard')
+            elif 'teacher' in user['user_type'].lower():
+                return redirect('/teacher/dashboard')
+            elif user['user_type'] == 'student':
+                return redirect('/student/dashboard')
+            elif user['user_type'] == 'parent':
+                return redirect('/parent/dashboard')
+            else:
+                return redirect('/dashboard')
+        else:
+            return render_template_string(LOGIN_TEMPLATE, error="Invalid username or account inactive")
+    
+    return render_template_string(LOGIN_TEMPLATE)
+@app.route('/dashboard')
+def dashboard():
+    """Simple dashboard after login"""
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    
+    return f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Dashboard - School Management System</title>
+        <style>
+            body {{ font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f4f4f4; }}
+            .header {{ background: #2c3e50; color: white; padding: 15px; margin-bottom: 20px; }}
+            .container {{ max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; }}
+            .logout-btn {{ background: #dc3545; color: white; border: none; padding: 10px 20px; cursor: pointer; }}
+            .info {{ background: #e8f4f8; padding: 15px; border-radius: 5px; margin-bottom: 20px; }}
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🏫 School Management System - Dashboard</h1>
+            <a href="/logout" class="logout-btn">Logout</a>
+        </div>
+        <div class="container">
+            <div class="info">
+                <h2>Welcome, {session.get('display_name', session.get('username'))}!</h2>
+                <p><strong>Username:</strong> {session.get('username')}</p>
+                <p><strong>User Type:</strong> {session.get('user_type')}</p>
+                <p><strong>User ID:</strong> {session.get('user_id')}</p>
+            </div>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="/users">View Users</a></li>
+                <li><a href="/students">View Students</a></li>
+                <li><a href="/teachers">View Teachers</a></li>
+            </ul>
+        </div>
+    </body>
+    </html>
+    """
+
+@app.route('/logout')
+def logout():
+    """Logout user"""
+    if session.get('user_id'):
+        record_activity(session['user_id'], session.get('username'), session.get('user_type'), 'LOGOUT', 'User logged out')
+    session.clear()
+    return redirect(url_for('login'))
+
+# Simple endpoints for testing
+@app.route('/users')
+def view_users():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    
+    conn = get_db()
+    cursor = conn.cursor(dictionary=True)
+    cursor.execute("SELECT user_id, username, user_type FROM users LIMIT 50")
+    users = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    
+    return {"users": users}
+
+@app.route('/students')
+def view_students():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    
+    conn = get_db()
+    cursor = conn.cursor(dictionary=True)
+    cursor.execute("SELECT RN, studid, fullname, grade, section FROM student LIMIT 50")
+    students = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    
+    return {"students": students}
+
+@app.route('/teachers')
+def view_teachers():
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    
+    conn = get_db()
+    cursor = conn.cursor(dictionary=True)
+    cursor.execute("SELECT id, name, email, phone FROM teacher LIMIT 50")
+    teachers = cursor.fetchall()
+    cursor.close()
+    conn.close()
+    
+    return {"teachers": teachers}
+
+if __name__ == '__main__':
+    print("\n" + "="*50)
+    print("SCHOOL MANAGEMENT SYSTEM - LOGIN SYSTEM")
+    print("Python/Flask Version")
+    print("="*50)
+    print("Server: http://127.0.0.1:5000")
+    print("\nAccess:")
+    print("  Login Page: http://127.0.0.1:5000/login")
+    print("  Dashboard: http://127.0.0.1:5000/dashboard")
+    print("\nTest Login:")
+    print("  Username: director001")
+    print("  Password: (use the actual password from database)")
+    print("="*50 + "\n")
+    
+    app.run(debug=True, host='127.0.0.1', port=5000)

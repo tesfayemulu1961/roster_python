@@ -1,0 +1,75 @@
+/* ============================================
+   LAYOUT CSS - Header, Navbar, Container
+   ============================================ */
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: var(--white);
+    padding: var(--spacing-md) 0;
+    box-shadow: var(--shadow-md);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h3 {
+    margin: 0;
+    font-size: var(--font-size-xl);
+}
+
+.header .user-info {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 70px;
+    width: 260px;
+    height: calc(100vh - 70px);
+    background-color: var(--dark);
+    color: var(--white);
+    overflow-y: auto;
+    transition: transform 0.3s;
+    z-index: 998;
+}
+
+.main-content {
+    margin-left: 260px;
+    padding: var(--spacing-xl);
+    margin-top: 70px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+    
+    .sidebar.open {
+        transform: translateX(0);
+    }
+    
+    .main-content {
+        margin-left: 0;
+        padding: var(--spacing-md);
+    }
+}

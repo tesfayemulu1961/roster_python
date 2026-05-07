@@ -1,0 +1,68 @@
+FILES TO CONVERT BY CATEGORY
+==================================================
+
+DASHBOARDS (61):
+  - director\director_dashboard.php
+  - director\director_dashboard2.php
+  - includes\components\DashboardComponent.php
+  - includes\services\DashboardService.php
+  - kg_director\kg_director_dashboard.php
+  - kg_director\kg_director_dashboard2.php
+  - kg_director\kg_director_dashboard3.php
+  - parent\parent_dashboard.php
+  - room_teacher\grade_1A\grade_1A_rt_dashboard.php
+  - room_teacher\grade_1B\grade_1B_rt_dashboard.php
+  - room_teacher\grade_1B\grade_2A_rt_dashboard.php
+  - room_teacher\grade_1C\grade_1C_rt_dashboard.php
+  - room_teacher\grade_1D\grade_1D_rt_dashboard.php
+  - room_teacher\grade_1E\grade_1E_rt_dashboard.php
+  - room_teacher\grade_2A\grade_2A_rt_dashboard.php
+  - room_teacher\grade_2B\grade_2B_rt_dashboard.php
+  - room_teacher\grade_2C\grade_2C_rt_dashboard.php
+  - room_teacher\grade_2D\grade_2D_rt_dashboard.php
+  - room_teacher\grade_3A\grade_3A_rt_dashboard.php
+  - room_teacher\grade_3A\grade_3B_rt_dashboard.php
+
+DIRECTOR MODULES (218):
+  - director\academic_year_converter.php
+  - director\academic_yerars.php
+  - director\active_sections.php
+  - director\activity_logger.php
+  - director\admin_session.php
+  - director\alphabetical_order.php
+  - director\annual_average_analysis.php
+  - director\auth_functions.php
+  - director\average_scores.php
+  - director\check_enrollment_status.php
+  - director\config.php
+  - director\correct_enrollment_query.php
+  - director\debug_scores.php
+  - director\delete_admin_staff.php
+  - director\delete_record_student_parent.php
+  - director\director_dashboard.php
+  - director\director_dashboard2.php
+  - director\director_session.php
+  - director\display_roster.php
+  - director\edit_academic_year.php
+
+TEACHER MODULES (1428):
+  - director\edit_room_teacher.php
+  - director\edit_subject_teacher.php
+  - director\edit_teacher.php
+  - director\edit_teacher_assignment.php
+  - director\get_teachers.php
+  - director\insert_teacher.php
+  - director\insert_teacher_assignment.php
+  - director\insert_teacher_assignment2.php
+  - director\teachers_list.php
+  - director\teacher_category.php
+  - director\teacher_details.php
+  - director\view_room_teachers.php
+  - director\view_room_teachers2.php
+  - director\view_subject_teachers.php
+  - director\view_teacher.php
+  - director\view_teacher_assignment.php
+  - director\view_teacher_assignment3.php
+  - room_teacher\room_teacher_session.php
+  - room_teacher\grade_1A\annual_average_analysis_grade_1A.php
+  - room_teacher\grade_1A\combined_semester_analysis_grade_1A.php

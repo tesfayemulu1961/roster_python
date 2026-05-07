@@ -1,0 +1,82 @@
+/* ============================================
+   TABLES CSS
+   ============================================ */
+
+.table-container {
+    background: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-md);
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+    padding: var(--spacing-md);
+    text-align: left;
+    border-bottom: 1px solid var(--gray-light);
+}
+
+.data-table th {
+    background-color: var(--dark);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.data-table tr:hover {
+    background-color: var(--gray-light);
+}
+
+/* Stats Cards */
+.stat-card {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    font-size: var(--font-size-2xl);
+    font-weight: bold;
+    margin: var(--spacing-sm) 0;
+}
+
+/* Grade Cards */
+.grade-card {
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    transition: transform 0.3s;
+    margin-bottom: var(--spacing-lg);
+    background: var(--white);
+    overflow: hidden;
+}
+
+.grade-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.grade-header {
+    padding: var(--spacing-md);
+    color: var(--white);
+}
+
+.grade-1 { background-color: #3498db; }
+.grade-2 { background-color: #2ecc71; }
+.grade-3 { background-color: #e74c3c; }
+.grade-4 { background-color: #f39c12; }
+.grade-5 { background-color: #9b59b6; }
+.grade-6 { background-color: #1abc9c; }
+.grade-7 { background-color: #d35400; }
+.grade-8 { background-color: #34495e; }

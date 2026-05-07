@@ -1,0 +1,36 @@
+import os
+import re
+
+def extract_css_from_file(filepath):
+    """Extract CSS from Python file and save to external file"""
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Extract CSS between <style> tags
+    css_pattern = r'<style>(.*?)</style>'
+    css_matches = re.findall(css_pattern, content, re.DOTALL)
+    
+    if css_matches:
+        # Determine CSS filename
+        basename = os.path.basename(filepath).replace('.py', '.css')
+        css_path = os.path.join('static', 'css', basename)
+        
+        with open(css_path, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(css_matches))
+        
+        # Remove CSS from original file
+        content = re.sub(css_pattern, '', content, flags=re.DOTALL)
+        
+        # Add CSS link
+        content = content.replace('</head>', f'    <link rel="stylesheet" href="/static/css/{basename}">\n</head>')
+        
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(content)
+        
+        print(f"Extracted CSS from {filepath} to {css_path}")
+
+# Run for all director files
+director_dir = 'director'
+for file in os.listdir(director_dir):
+    if file.endswith('.py'):
+        extract_css_from_file(os.path.join(director_dir, file))

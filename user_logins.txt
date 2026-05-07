@@ -1,0 +1,51 @@
+Grade	Section	Aca.Year   Name	                Username	User Type
+1-8			Aklilu Kebede	        director001	Director
+1-8			Getawa Mekonen	        director002	Vice director
+KG			KG Director	        director003	KG director
+1-8			Supervisor	        supervisor001	Supervisor
+1	A	2018	Tigist Ayehu	        TCH-0094	Room teacher grade 1st A
+1	A	2017	Ahmed Mustefa Yasin	TCH-0026	Room teacher grade 1st A
+1	B	2018	Tsegaye Gugsa	        TCH-0095	Room teacher grade 1st B
+1	B	2017	Zemene Sisay	        TCH-0024	Room teacher grade 1st B
+1	C	2018	Genetemariyam Birhan	TCH-0096	Room teacher grade 1st C
+1	C	2017	Serkalem Hailu	        TCH-0016	Room teacher grade 1st C
+1	D	2018	Birnesh Baraki	        TCH-0097	Room teacher grade 1st D
+1	D	2017	Abebe Migbaru Yaregal	TCH-0036	Room teacher grade 1st D
+1	E	2018	Habtam Tsegaye	        TCH-0010	Room teacher grade 1st E
+2	A	2018	Maeza Tarekegn	        TCH-0014	Room teacher grade 2nd A
+2	B	2018	Asefa Mengie	        TCH-0098	Room teacher grade 2nd B
+2	C	2018	Zewudinat Zelalem	TCH-0099	Room teacher grade 2nd C
+2	C	2017	Workinesh Birhanu	TCH-0025	Room teacher grade 2nd C
+2	D	2017	Semira Amhed Mohamed	TCH-0088	Room teacher grade 2nd D
+2	D	2018	Yeshiworq Sisay	        TCH-0011	Room teacher grade 2nd D
+3	A	2018	Tsehaynesh Demissie	TCH-0013	Room teacher grade 3rd A
+3	B	2017	Belay Fiseha Tesema	TCH-0029	Room teacher grade 3rd B
+3	C	2018	Zenebech Chekole	TCH-00100	Room teacher grade 3rd C
+3	C	2017	Mohamed Ahmed Kedir	TCH-0030	Room teacher grade 3rd C
+4	A	2018	Birhan Gumataw	        TCH-00101	Room teacher grade 4th A
+4	B	2018	Kasanew Getnet	        TCH-00110	Room teacher grade 4th B
+4	C	2018	Mulunesh Alemayehu	TCH-00102	Room teacher grade 4th C
+4	C	2017	Belaynesh Yimer	        TCH-0012	Room teacher grade 4th C
+4	D	2018	Tefera Simegnew Abeje	TCH-0087	Room teacher grade 4th D
+5	A	2018	Tigist Getahun	        TCH-008	        Room teacher grade 5th A
+5	B	2018	Asefa Yalew Bihonegn	TCH-0028	Room teacher grade 5th B
+5	B	2017	Genzeb Belay	        TCH-007	        Room teacher grade 5th B
+5	C	2018	Dagnaw Legesse	        TCH-00103	Room teacher grade 5th C
+5	C	2017	Demeke Ageru	        TCH-009	        Room teacher grade 5th C
+5	D	2018	Serkalem Getaneh	TCH-00104	Room teacher grade 5th D
+6	A	2018	Debritu Molla	         TCH-002	Room teacher grade 6th A
+6	A	2017	Mulu Meseret	         TCH-001	Room teacher grade 6th A
+6	B	2018	Dirb Nega	         TCH-00105	Room teacher grade 6th B
+6	B	2017	Serkalem Asefa	         TCH-0015	Room teacher grade 6th B
+6	C	2018	Zelalem Nega	         TCH-00106	Room teacher grade 6th C
+6	D	2018	Getnet Woldesemayat	TCH-00107	Room teacher grade 6th D
+7	A	2018	Britu Ayalew	         TCH-005	Room teacher grade 7th A
+7	B	2018	Belaynesh Worqineh	 TCH-006	Room teacher grade 7th B
+7	C	2018	Meseret Wodaj	         TCH-004	Room teacher grade 7th C
+7	D	2018	Ermiyas Ayele	         TCH-00108	Room teacher grade 7th D
+8	A	2018	Seid Abdela	         TCH-00109	Room teacher grade 8th A
+8	A	2017	Zehara	                 TCH-0017	Room teacher grade 8th A
+8	B	2018	Alemayehu Melese	TCH-0018	Room teacher grade 8th B
+8	C	2018	Siraj Ahmed	         TCH-003	Room teacher grade 8th C
+8	D	208	Gizachew Asfaw	         TCH-0019	Room teacher grade 8th D
+8	D	2017	Zemen Amare	         TCH-0020	Room teacher grade 8th D

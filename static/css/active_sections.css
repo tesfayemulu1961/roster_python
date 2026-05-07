@@ -1,0 +1,13 @@
+/* Active Sections Page Specific Styles */
+.active-sections-page .grade-card {
+    margin-bottom: 20px;
+}
+
+.active-sections-page .table th {
+    background-color: #f8f9fa;
+}
+
+.active-sections-page .badge {
+    font-size: 0.85rem;
+    padding: 5px 10px;
+}
